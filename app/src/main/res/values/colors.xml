@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="ga_bg">#EEF3F8</color>
+    <color name="ga_text">#142033</color>
+    <color name="ga_muted">#687386</color>
+    <color name="ga_blue">#145DF5</color>
+    <color name="ga_blue_dark">#0B4BCF</color>
+    <color name="ga_red">#B83228</color>
+    <color name="ga_warn_bg">#FFF5D7</color>
+    <color name="ga_warn_text">#705500</color>
+</resources>
