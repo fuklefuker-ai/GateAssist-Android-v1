@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="Airport gate announcement assistant · v1.0"
+            android:text="Airport gate announcement assistant · v1.0.1"
             android:textColor="@color/ga_muted" />
 
         <TextView
@@ -35,40 +35,40 @@
             android:text="Demo flight data only. Verify all operational information before playback."
             android:textColor="@color/ga_warn_text" />
 
-        <TextView android:text="Flight" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:text="Flight" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <Spinner android:id="@+id/flightSpinner" android:layout_width="match_parent" android:layout_height="52dp" />
 
-        <TextView android:text="Announcement" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:text="Announcement" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <Spinner android:id="@+id/typeSpinner" android:layout_width="match_parent" android:layout_height="52dp" />
 
-        <TextView android:text="Gate" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <EditText android:id="@+id/gateInput" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:text="Gate" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/gateInput" android:inputType="text" android:textColor="@color/ga_text" android:textColorHint="@color/ga_hint" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:id="@+id/timeLabel" android:text="Boarding close time" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <EditText android:id="@+id/timeInput" android:hint="17:10" android:inputType="text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/timeLabel" android:text="Boarding close time" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/timeInput" android:hint="17:10" android:inputType="text" android:textColor="@color/ga_text" android:textColorHint="@color/ga_hint" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:id="@+id/extraLabel" android:text="Extra details (optional)" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <EditText android:id="@+id/extraInput" android:hint="Not required for this announcement" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/extraLabel" android:text="Extra details (optional)" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:id="@+id/extraInput" android:hint="Not required for this announcement" android:textColor="@color/ga_text" android:textColorHint="@color/ga_hint" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
         <Button android:id="@+id/generateButton" android:text="Generate &amp; Safety Check" android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="52dp" />
 
         <TextView android:id="@+id/statusText" android:layout_marginTop="14dp" android:textColor="@color/ga_red" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:text="English" android:textStyle="bold" android:layout_marginTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:id="@+id/englishText" android:textSize="17sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:text="English" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/englishText" android:textColor="@color/ga_text" android:textSize="17sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:text="日本語" android:textStyle="bold" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:id="@+id/japaneseText" android:textSize="16sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:text="日本語" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/japaneseText" android:textColor="@color/ga_text" android:textSize="16sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:text="廣東話" android:textStyle="bold" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:id="@+id/cantoneseText" android:textSize="16sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:text="廣東話" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@+id/cantoneseText" android:textColor="@color/ga_text" android:textSize="16sp" android:padding="14dp" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <CheckBox android:id="@+id/confirmCheck" android:text="I checked the airline, flight, destination, gate and times." android:enabled="false" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <CheckBox android:id="@+id/confirmCheck" android:text="I checked the airline, flight, destination, gate and times." android:textColor="@color/ga_text" android:enabled="false" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" />
 
-        <TextView android:text="Languages" android:textStyle="bold" android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <CheckBox android:id="@+id/enCheck" android:text="English" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <CheckBox android:id="@+id/jaCheck" android:text="日本語" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <CheckBox android:id="@+id/yueCheck" android:text="廣東話" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:text="Languages" android:textColor="@color/ga_text" android:textStyle="bold" android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@+id/enCheck" android:text="English" android:textColor="@color/ga_text" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@+id/jaCheck" android:text="日本語" android:textColor="@color/ga_text" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@+id/yueCheck" android:text="廣東話" android:textColor="@color/ga_text" android:checked="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 
         <Button android:id="@+id/playEnglish" android:text="▶ Play English" android:enabled="false" android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="52dp" />
         <Button android:id="@+id/playJapanese" android:text="▶ Play Japanese" android:enabled="false" android:layout_marginTop="8dp" android:layout_width="match_parent" android:layout_height="52dp" />
