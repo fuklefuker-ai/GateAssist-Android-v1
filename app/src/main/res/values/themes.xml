@@ -1,11 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.GateAssist" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.GateAssist" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/ga_blue</item>
         <item name="colorPrimaryVariant">@color/ga_blue_dark</item>
         <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/ga_text</item>
+        <item name="android:textColorPrimary">@color/ga_text</item>
+        <item name="android:textColorSecondary">@color/ga_muted</item>
+        <item name="android:textColorHint">@color/ga_hint</item>
         <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/ga_bg</item>
         <item name="android:navigationBarColor">@color/white</item>
         <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
     </style>
 </resources>
