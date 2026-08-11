@@ -3,11 +3,12 @@
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="ga_bg">#EEF3F8</color>
-    <color name="ga_text">#142033</color>
-    <color name="ga_muted">#687386</color>
+    <color name="ga_text">#101827</color>
+    <color name="ga_muted">#475569</color>
+    <color name="ga_hint">#596579</color>
     <color name="ga_blue">#145DF5</color>
     <color name="ga_blue_dark">#0B4BCF</color>
-    <color name="ga_red">#B83228</color>
+    <color name="ga_red">#A82E24</color>
     <color name="ga_warn_bg">#FFF5D7</color>
-    <color name="ga_warn_text">#705500</color>
+    <color name="ga_warn_text">#5F4700</color>
 </resources>
